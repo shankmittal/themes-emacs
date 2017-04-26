@@ -1,8 +1,8 @@
-(deftheme shankmittal-light
-  "Based on default theme")
+(deftheme default
+  "")
 
 (custom-theme-set-faces
- 'shankmittal-light
+ 'default
  '(default ((t (:family "Courier 10 Pitch" :foundry "bitstream" :width normal :height 128 :weight normal :slant normal :underline nil :overline nil :strike-through nil :box nil :inverse-video nil :foreground "black" :background "white" :stipple nil :inherit nil))))
  '(cursor ((t (:background "DarkGoldenrod2"))))
  '(fixed-pitch ((t (:family "Monospace"))))
@@ -48,4 +48,4 @@
  '(next-error ((t (:inherit (region)))))
  '(query-replace ((t (:inherit (isearch))))))
 
-(provide-theme 'shankmittal-light)
+(provide-theme 'default)
